@@ -40,7 +40,7 @@ PREFIX_ARITHMETIC = "Solve step by step using arithmetic only. "
 FINAL_PHRASE = "\nFinal answer: "
 
 CACHE_FILE = "cached_cots.csv"
-RESULTS_FILE = "results_.csv"
+RESULTS_FILE = "results.csv"
 
 def cosine(a, b):
     a = a.astype(np.float64)
